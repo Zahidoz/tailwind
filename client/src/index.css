@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.inpt-focus{
+    @apply focus:border-red-500 focus:rounded-lg;
+}
